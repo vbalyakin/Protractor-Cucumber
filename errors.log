@@ -1,0 +1,2 @@
+[18/05/2020-14.43.32.033] - [ERROR] - result - Error with step: 'Section shop section is visible' 
+ AssertionError: expected true to equal false

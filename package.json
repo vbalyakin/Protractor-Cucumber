@@ -1,0 +1,37 @@
+{
+  "name": "protractor_cucumber_homework",
+  "version": "1.0.0",
+  "description": "JS Team 2 Module-5 homework",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.0.2",
+    "cucumber-pretty": "^6.0.0",
+    "fs-extra": "^8.1.0",
+    "log4js": "^6.2.1",
+    "multiple-cucumber-html-reporter": "^1.16.2",
+    "newman-reporter-htmlextra": "^1.15.2",
+    "protractor": "^5.4.3",
+    "protractor-cucumber-framework": "^6.2.0",
+    "winston": "^3.2.1",
+    "xmultiple": "^1.0.0",
+    "yargs": "^14.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-protractor": "^4.1.1",
+    "protractor-multiple-cucumber-html-reporter-plugin": "^1.8.1"
+  },
+  "scripts": {
+    "sortPO": "node ./test/e2e/config/utils/sortPO.js",
+    "pree2e": "node ./test/e2e/config/utils/cleanup.js",
+    "e2e": "protractor ./test/e2e/config/protractor.config.js",
+    "postinstall": "webdriver-manager update --versions.standalone=3.10.0 --gecko=false",
+    "e2e:update": "webdriver-manager update",
+    "e2e:start-server": "webdriver-manager start --versions.standalone=3.10.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

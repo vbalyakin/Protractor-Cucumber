@@ -1,0 +1,83 @@
+{
+	"all g-technology products": {
+		"selector": "div#store_gtech_nav"
+	},
+	"all sandisk products": {
+		"selector": "div#store_sandisk_nav"
+	},
+	"all wd products": {
+		"selector": "div#store_wd_nav"
+	},
+	"bottom": {
+		"selector": "div.par.iparys_inherited a[href*='tel:+18885271441']"
+	},
+	"contact phone": {
+		"selector": "a[href*='tel:+18885271441']"
+	},
+	"covid": {
+		"selector": "a[href*='covid-19-updates']"
+	},
+	"details under support": {
+		"selector": "div.accordion-box"
+	},
+	"explore g-tech": {
+		"selector": "div[data-nav*='exploreG-tech']"
+	},
+	"explore sandisk": {
+		"selector": "div[data-nav*='exploreSandisk']"
+	},
+	"explore section": {
+		"selector": "#explore"
+	},
+	"explore wd": {
+		"selector": "div[data-nav*='exploreWD']"
+	},
+	"g-technology": {
+		"selector": "div[data-nav*='store_gtech_nav']"
+	},
+	"g-technology support": {
+		"selector": "a[href*='g-technology'][aria-label='Link']"
+	},
+	"information of open column": {
+		"selector": "ul.list-reset"
+	},
+	"sandisk": {
+		"selector": "div[data-nav*='store_sandisk_nav']"
+	},
+	"sandisk support": {
+		"selector": "a[href*='sandisk'][aria-label='Link']"
+	},
+	"save everything at home": {
+		"selector": "div.relative a[href*='wd-my-cloud-home']"
+	},
+	"search": {
+		"selector": "label.button.searchbutton"
+	},
+	"search line": {
+		"selector": "#searchright"
+	},
+	"shop menu": {
+		"selector": "div.text.parbase li#productStore"
+	},
+	"shop now": {
+		"selector": "a[href*='wd-my-cloud-home']"
+	},
+	"shop section": {
+		"selector": "#productStore"
+	},
+	"store panel": {
+		"selector": "div.relative.container.contain.mx-auto"
+	},
+	"support section": {
+		"selector": "#support"
+	},
+	"support text": {
+		"selector": ".cols-12.flex.justify-center .text.parbase .textcolumn"
+	},
+	"wd": {
+		"selector": "div[data-nav*='store_wd_nav']"
+	},
+	"wd support": {
+		"selector": "a[href*='wd'][aria-label='Link']"
+	}
+}
