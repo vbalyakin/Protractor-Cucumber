@@ -14,7 +14,7 @@ const helperElement = new PageObjectElement(),
 Then(/^Section "([^"]*)" is visible$/, async (alias) => { 
 	const highLightExpect = async () => {
 		await highlightElement(alias);
-		return expect(await helperElement.isVisible(alias)).to.be.equal(false); // change 'false' -> true
+		return expect(await helperElement.isVisible(alias)).to.be.equal(true);
 	};
 	try {
 		logger.info(`Section ${alias} is visible`);
