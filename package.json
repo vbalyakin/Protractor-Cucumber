@@ -10,7 +10,7 @@
     "cucumber-html-reporter": "^5.0.2",
     "cucumber-pretty": "^6.0.0",
     "fs-extra": "^8.1.0",
-    "log4js": "^6.2.1",
+    "log4js": "^6.4.0",
     "multiple-cucumber-html-reporter": "^1.16.2",
     "newman-reporter-htmlextra": "^1.15.2",
     "protractor": "^5.4.4",
